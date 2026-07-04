@@ -8,7 +8,9 @@
 
 if (!defined('DOKU_INC')) {die();}
 if (!defined('DOKU_PLUGIN')) {define('DOKU_PLUGIN', DOKU_INC . 'lib/plugins/');}
-require_once DOKU_PLUGIN . 'action.php';
+// FIX start: remove 'require_once' (deprecated)
+// require_once DOKU_PLUGIN . 'action.php';
+// FIX end
 
 class action_plugin_nssearch extends DokuWiki_Action_Plugin
 {
