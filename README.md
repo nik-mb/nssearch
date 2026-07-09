@@ -1,1 +1,2 @@
-remove 'require_once' (deprecated)
+file 'action.php': remove 'require\_once' (deprecated)
+
